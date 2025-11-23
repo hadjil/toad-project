@@ -1,0 +1,99 @@
+[
+    {
+        "planGroup": "MAT001",
+        "groupCounter": "1",
+        "material": "RM-100",
+        "materialDescription": "Raw Material Steel",
+        "plant": "1000",
+        "usage": "1",
+        "status": "2",
+        "operations": [
+            {
+                "operation": "0010",
+                "description": "Visual Inspection",
+                "workCenter": "QC-01",
+                "characteristics": [
+                    {
+                        "characteristic": "APPEARANCE",
+                        "description": "Surface Appearance",
+                        "inspectionMethod": "Visual",
+                        "targetValue": 1,
+                        "lowerTolerance": 1,
+                        "upperTolerance": 1,
+                        "unit": "SCORE"
+                    },
+                    {
+                        "characteristic": "COLOR",
+                        "description": "Color Consistency",
+                        "inspectionMethod": "Visual",
+                        "targetValue": 1,
+                        "lowerTolerance": 1,
+                        "upperTolerance": 1,
+                        "unit": "SCORE"
+                    }
+                ]
+            },
+            {
+                "operation": "0020",
+                "description": "Dimensional Check",
+                "workCenter": "QC-02",
+                "characteristics": [
+                    {
+                        "characteristic": "LENGTH",
+                        "description": "Length Measurement",
+                        "inspectionMethod": "Caliper",
+                        "targetValue": 100,
+                        "lowerTolerance": 99,
+                        "upperTolerance": 101,
+                        "unit": "MM"
+                    },
+                    {
+                        "characteristic": "WIDTH",
+                        "description": "Width Measurement",
+                        "inspectionMethod": "Caliper",
+                        "targetValue": 50,
+                        "lowerTolerance": 49.5,
+                        "upperTolerance": 50.5,
+                        "unit": "MM"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "planGroup": "FG001",
+        "groupCounter": "1",
+        "material": "FG-200",
+        "materialDescription": "Finished Product A",
+        "plant": "1000",
+        "usage": "1",
+        "status": "2",
+        "operations": [
+            {
+                "operation": "0010",
+                "description": "Functional Test",
+                "workCenter": "QC-03",
+                "characteristics": [
+                    {
+                        "characteristic": "VOLTAGE",
+                        "description": "Operating Voltage",
+                        "inspectionMethod": "Multimeter",
+                        "targetValue": 220,
+                        "lowerTolerance": 210,
+                        "upperTolerance": 230,
+                        "unit": "V"
+                    },
+                    {
+                        "characteristic": "CURRENT",
+                        "description": "Operating Current",
+                        "inspectionMethod": "Ammeter",
+                        "targetValue": 5,
+                        "lowerTolerance": 4.5,
+                        "upperTolerance": 5.5,
+                        "unit": "A"
+                    }
+                ]
+            }
+        ]
+    }
+]

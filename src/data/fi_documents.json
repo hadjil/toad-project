@@ -1,0 +1,62 @@
+[
+    {
+        "documentNumber": "1000000001",
+        "companyCode": "1000",
+        "documentDate": "2023-10-01",
+        "postingDate": "2023-10-01",
+        "period": "10",
+        "type": "SA",
+        "currency": "USD",
+        "headerText": "Opening Balance",
+        "status": "Posted",
+        "items": [
+            {
+                "lineId": 1,
+                "postingKey": "40",
+                "account": "100000",
+                "description": "Bank Account",
+                "amount": 10000.00,
+                "text": "Initial Deposit"
+            },
+            {
+                "lineId": 2,
+                "postingKey": "50",
+                "account": "300000",
+                "description": "Equity Capital",
+                "amount": 10000.00,
+                "text": "Initial Capital"
+            }
+        ],
+        "createdAt": "2023-10-01T10:00:00Z"
+    },
+    {
+        "documentNumber": "1000000002",
+        "companyCode": "1000",
+        "documentDate": "2023-10-05",
+        "postingDate": "2023-10-05",
+        "period": "10",
+        "type": "KR",
+        "currency": "USD",
+        "headerText": "Vendor Invoice",
+        "status": "Posted",
+        "items": [
+            {
+                "lineId": 1,
+                "postingKey": "31",
+                "account": "1000",
+                "description": "Acme Corp",
+                "amount": 1500.00,
+                "text": "Inv 12345"
+            },
+            {
+                "lineId": 2,
+                "postingKey": "40",
+                "account": "400000",
+                "description": "Raw Materials Expense",
+                "amount": 1500.00,
+                "text": "Purchase of Steel"
+            }
+        ],
+        "createdAt": "2023-10-05T14:30:00Z"
+    }
+]

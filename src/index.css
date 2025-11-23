@@ -1,0 +1,34 @@
+:root {
+  --sap-header-bg: #354a5f;
+  --sap-header-text: #ffffff;
+  --sap-bg-color: #f2f2f2;
+  --sap-input-bg: #ffffff;
+  --sap-input-border: #89aeb8;
+  --sap-input-focus: #f0ab00; /* SAP Gold focus */
+  --sap-text-color: #333333;
+  --sap-blue: #007cc0;
+}
+
+body {
+  margin: 0;
+  font-family: '72', 'Arial', sans-serif; /* SAP font stack */
+  background-color: var(--sap-bg-color);
+  color: var(--sap-text-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8; 
+}

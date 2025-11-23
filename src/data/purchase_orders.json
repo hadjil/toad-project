@@ -1,0 +1,77 @@
+[
+    {
+        "documentNumber": "4500000001",
+        "vendor": "1000",
+        "vendorName": "Acme Corp",
+        "docDate": "2023-10-01",
+        "purchOrg": "1000",
+        "companyCode": "1000",
+        "currency": "USD",
+        "items": [
+            {
+                "item": 10,
+                "material": "RM-100",
+                "shortText": "Raw Material Steel",
+                "quantity": 100,
+                "unit": "KG",
+                "netPrice": 12.50,
+                "plant": "1000"
+            },
+            {
+                "item": 20,
+                "material": "RM-101",
+                "shortText": "Bolts & Nuts",
+                "quantity": 500,
+                "unit": "PC",
+                "netPrice": 0.50,
+                "plant": "1000"
+            }
+        ],
+        "totalValue": 1500.00,
+        "status": "Approved"
+    },
+    {
+        "documentNumber": "4500000002",
+        "vendor": "2000",
+        "vendorName": "TechSupplies Inc",
+        "docDate": "2023-10-05",
+        "purchOrg": "1000",
+        "companyCode": "1000",
+        "currency": "EUR",
+        "items": [
+            {
+                "item": 10,
+                "material": "ELEC-001",
+                "shortText": "Circuit Board",
+                "quantity": 50,
+                "unit": "PC",
+                "netPrice": 45.00,
+                "plant": "1000"
+            }
+        ],
+        "totalValue": 2250.00,
+        "status": "Open"
+    },
+    {
+        "documentNumber": "4500000003",
+        "vendor": "3000",
+        "vendorName": "Global Logistics",
+        "docDate": "2023-10-10",
+        "purchOrg": "1000",
+        "companyCode": "1000",
+        "currency": "USD",
+        "items": [
+            {
+                "item": 10,
+                "material": "PKG-BOX",
+                "shortText": "Packaging Box Large",
+                "quantity": 1000,
+                "unit": "PC",
+                "netPrice": 1.20,
+                "plant": "1000"
+            }
+        ],
+        "totalValue": 1200.00,
+        "status": "Received"
+    }
+]

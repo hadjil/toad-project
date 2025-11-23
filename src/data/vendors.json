@@ -1,0 +1,26 @@
+[
+    {
+        "vendor": "2000",
+        "name": "Steel Suppliers Corp.",
+        "city": "Pittsburgh",
+        "country": "US",
+        "paymentTerms": "0001",
+        "reconciliationAccount": "160000"
+    },
+    {
+        "vendor": "2001",
+        "name": "Logistics Partners",
+        "city": "Hamburg",
+        "country": "DE",
+        "paymentTerms": "0002",
+        "reconciliationAccount": "160000"
+    },
+    {
+        "vendor": "2002",
+        "name": "Office Supplies Ltd.",
+        "city": "London",
+        "country": "UK",
+        "paymentTerms": "0001",
+        "reconciliationAccount": "160000"
+    }
+]

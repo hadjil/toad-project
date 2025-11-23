@@ -1,0 +1,44 @@
+[
+    {
+        "account": "100000",
+        "description": "Petty Cash",
+        "type": "BS",
+        "currency": "USD"
+    },
+    {
+        "account": "110000",
+        "description": "Bank Account - Checking",
+        "type": "BS",
+        "currency": "USD"
+    },
+    {
+        "account": "140000",
+        "description": "Trade Receivables",
+        "type": "BS",
+        "currency": "USD"
+    },
+    {
+        "account": "160000",
+        "description": "Trade Payables",
+        "type": "BS",
+        "currency": "USD"
+    },
+    {
+        "account": "400000",
+        "description": "Sales Revenue",
+        "type": "PL",
+        "currency": "USD"
+    },
+    {
+        "account": "500000",
+        "description": "Cost of Goods Sold",
+        "type": "PL",
+        "currency": "USD"
+    },
+    {
+        "account": "600000",
+        "description": "Office Supplies Expense",
+        "type": "PL",
+        "currency": "USD"
+    }
+]

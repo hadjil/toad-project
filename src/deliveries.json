@@ -1,0 +1,49 @@
+[
+  {
+    "tCode": "VL03N",
+    "deliveryNumber": "80019271",
+    "header": {
+      "customer": "C-1001 / Cliente Mayorista",
+      "shippingPoint": "S001",
+      "shipmentDate": "2025-11-20",
+      "status": "C - Completado",
+      "incoterms": "FOB"
+    },
+    "items": [
+      {
+        "position": "10",
+        "material": "M-4711",
+        "description": "Portátil Elite X",
+        "quantity": "5",
+        "unit": "PC"
+      },
+      {
+        "position": "20",
+        "material": "M-5003",
+        "description": "Monitor Curvo 32''",
+        "quantity": "10",
+        "unit": "PC"
+      }
+    ]
+  },
+  {
+    "tCode": "VL03N",
+    "deliveryNumber": "80019272",
+    "header": {
+      "customer": "C-2050 / Retail Pequeño",
+      "shippingPoint": "S002",
+      "shipmentDate": "2025-11-21",
+      "status": "A - Pendiente de picking",
+      "incoterms": "CIF"
+    },
+    "items": [
+      {
+        "position": "10",
+        "material": "M-1123",
+        "description": "Servidor Rack 4U",
+        "quantity": "2",
+        "unit": "PC"
+      }
+    ]
+  }
+]

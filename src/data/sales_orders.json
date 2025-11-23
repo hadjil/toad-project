@@ -1,0 +1,57 @@
+[
+    {
+        "documentNumber": "1000001",
+        "type": "Sales Order",
+        "customer": "10000",
+        "customerName": "Best Buy",
+        "docDate": "2023-10-02",
+        "salesOrg": "1000",
+        "distChannel": "10",
+        "division": "00",
+        "currency": "USD",
+        "items": [
+            {
+                "item": 10,
+                "material": "FG-200",
+                "description": "Finished Product A",
+                "quantity": 10,
+                "unit": "PC",
+                "netValue": 500.00
+            }
+        ],
+        "netValue": 5000.00,
+        "status": "Open"
+    },
+    {
+        "documentNumber": "1000002",
+        "type": "Sales Order",
+        "customer": "10001",
+        "customerName": "Walmart",
+        "docDate": "2023-10-06",
+        "salesOrg": "1000",
+        "distChannel": "10",
+        "division": "00",
+        "currency": "USD",
+        "items": [
+            {
+                "item": 10,
+                "material": "FG-201",
+                "description": "Finished Product B",
+                "quantity": 200,
+                "unit": "PC",
+                "netValue": 25.00
+            }
+        ],
+        "netValue": 5000.00,
+        "status": "Shipped"
+    },
+    {
+        "documentNumber": "9000001",
+        "type": "Invoice",
+        "customer": "10000",
+        "docDate": "2023-10-15",
+        "currency": "USD",
+        "netValue": 5000.00,
+        "status": "Posted"
+    }
+]

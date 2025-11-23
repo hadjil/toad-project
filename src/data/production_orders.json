@@ -1,0 +1,196 @@
+[
+    {
+        "orderNumber": "1000000001",
+        "material": "FG-200",
+        "materialDescription": "Bomba Centrifuga P-100",
+        "plant": "1000",
+        "orderType": "ZPP1",
+        "quantity": 10,
+        "unit": "ST",
+        "startDate": "2024-01-15",
+        "finishDate": "2024-01-25",
+        "status": "REL",
+        "components": [
+            {
+                "item": 10,
+                "material": "SEMI-001",
+                "description": "Impulsor Mecanizado",
+                "quantity": 10,
+                "unit": "ST",
+                "withdrawn": 10
+            },
+            {
+                "item": 20,
+                "material": "SEMI-002",
+                "description": "Carcasa Fundida",
+                "quantity": 10,
+                "unit": "ST",
+                "withdrawn": 10
+            },
+            {
+                "item": 30,
+                "material": "100-200",
+                "description": "Eje de Acero",
+                "quantity": 10,
+                "unit": "ST",
+                "withdrawn": 10
+            },
+            {
+                "item": 40,
+                "material": "RM-103",
+                "description": "Sello Mecánico Tipo A",
+                "quantity": 10,
+                "unit": "ST",
+                "withdrawn": 10
+            },
+            {
+                "item": 50,
+                "material": "RM-104",
+                "description": "Rodamiento 6205-2RS",
+                "quantity": 20,
+                "unit": "ST",
+                "withdrawn": 20
+            },
+            {
+                "item": 60,
+                "material": "RM-101",
+                "description": "Tornillos y Tuercas M8",
+                "quantity": 80,
+                "unit": "PC",
+                "withdrawn": 80
+            }
+        ],
+        "operations": [
+            {
+                "operation": "0010",
+                "description": "Ensamble de Impulsor",
+                "workCenter": "ASSY-01",
+                "confirmedYield": 10
+            },
+            {
+                "operation": "0020",
+                "description": "Montaje de Carcasa",
+                "workCenter": "ASSY-01",
+                "confirmedYield": 10
+            },
+            {
+                "operation": "0030",
+                "description": "Instalación de Sellos",
+                "workCenter": "ASSY-02",
+                "confirmedYield": 10
+            },
+            {
+                "operation": "0040",
+                "description": "Prueba Hidrostática",
+                "workCenter": "TEST-01",
+                "confirmedYield": 10
+            }
+        ]
+    },
+    {
+        "orderNumber": "1000000002",
+        "material": "FG-201",
+        "materialDescription": "Motor Bomba Completo M-50",
+        "plant": "1000",
+        "orderType": "ZPP1",
+        "quantity": 5,
+        "unit": "ST",
+        "startDate": "2024-01-20",
+        "finishDate": "2024-02-05",
+        "status": "PCNF",
+        "components": [
+            {
+                "item": 10,
+                "material": "FG-200",
+                "description": "Bomba Centrifuga P-100",
+                "quantity": 5,
+                "unit": "ST",
+                "withdrawn": 3
+            },
+            {
+                "item": 20,
+                "material": "ELEC-002",
+                "description": "Motor Eléctrico 5HP",
+                "quantity": 5,
+                "unit": "ST",
+                "withdrawn": 3
+            },
+            {
+                "item": 30,
+                "material": "PKG-BOX",
+                "description": "Caja de Embalaje Grande",
+                "quantity": 5,
+                "unit": "PC",
+                "withdrawn": 0
+            }
+        ],
+        "operations": [
+            {
+                "operation": "0010",
+                "description": "Acoplamiento Motor-Bomba",
+                "workCenter": "ASSY-03",
+                "confirmedYield": 3
+            },
+            {
+                "operation": "0020",
+                "description": "Prueba de Rendimiento",
+                "workCenter": "TEST-02",
+                "confirmedYield": 0
+            },
+            {
+                "operation": "0030",
+                "description": "Embalaje Final",
+                "workCenter": "PACK-01",
+                "confirmedYield": 0
+            }
+        ]
+    },
+    {
+        "orderNumber": "1000000003",
+        "material": "SEMI-001",
+        "materialDescription": "Impulsor Mecanizado",
+        "plant": "1000",
+        "orderType": "ZPP1",
+        "quantity": 50,
+        "unit": "ST",
+        "startDate": "2024-01-10",
+        "finishDate": "2024-01-20",
+        "status": "TECO",
+        "components": [
+            {
+                "item": 10,
+                "material": "RM-102",
+                "description": "Aluminio 6061-T6",
+                "quantity": 25,
+                "unit": "KG",
+                "withdrawn": 25
+            }
+        ],
+        "operations": [
+            {
+                "operation": "0010",
+                "description": "Torneado CNC",
+                "workCenter": "CNC-01",
+                "confirmedYield": 50
+            },
+            {
+                "operation": "0020",
+                "description": "Fresado de Álabes",
+                "workCenter": "CNC-02",
+                "confirmedYield": 50
+            },
+            {
+                "operation": "0030",
+                "description": "Balanceo Dinámico",
+                "workCenter": "BAL-01",
+                "confirmedYield": 50
+            },
+            {
+                "operation": "0040",
+                "description": "Inspección Dimensional",
+                "workCenter": "QC-02",
+                "confirmedYield": 50
+            }
+        ]
+    }
+]

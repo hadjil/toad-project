@@ -1,0 +1,211 @@
+[
+    {
+        "inspectionLot": "10000001",
+        "material": "RM-100",
+        "materialDescription": "Acero Inoxidable 316L",
+        "batch": "L2024-0115",
+        "plant": "1000",
+        "inspectionType": "01",
+        "quantity": 500,
+        "unit": "KG",
+        "status": "CALC",
+        "usageDecision": "A",
+        "createdDate": "2024-01-15T08:00:00Z",
+        "inspectionPlan": "MAT001-1",
+        "results": [
+            {
+                "characteristic": "THICKNESS",
+                "characteristicDescription": "Espesor de lámina",
+                "targetValue": 3.0,
+                "lowerLimit": 2.9,
+                "upperLimit": 3.1,
+                "actualValue": 3.02,
+                "result": "OK",
+                "inspector": "QC-TECH01",
+                "inspectionDate": "2024-01-15T10:30:00Z"
+            },
+            {
+                "characteristic": "HARDNESS",
+                "characteristicDescription": "Dureza Rockwell",
+                "targetValue": 85,
+                "lowerLimit": 80,
+                "upperLimit": 90,
+                "actualValue": 84,
+                "result": "OK",
+                "inspector": "QC-TECH01",
+                "inspectionDate": "2024-01-15T11:00:00Z"
+            },
+            {
+                "characteristic": "SURFACE",
+                "characteristicDescription": "Calidad superficial",
+                "targetValue": 1,
+                "lowerLimit": 1,
+                "upperLimit": 1,
+                "actualValue": 1,
+                "result": "OK",
+                "inspector": "QC-TECH01",
+                "inspectionDate": "2024-01-15T11:15:00Z"
+            }
+        ]
+    },
+    {
+        "inspectionLot": "10000002",
+        "material": "FG-200",
+        "materialDescription": "Bomba Centrifuga P-100",
+        "batch": "PROD-2024-001",
+        "plant": "1000",
+        "inspectionType": "03",
+        "quantity": 10,
+        "unit": "ST",
+        "status": "CALC",
+        "usageDecision": "A",
+        "createdDate": "2024-01-18T14:00:00Z",
+        "inspectionPlan": "FG001-1",
+        "results": [
+            {
+                "characteristic": "FLOW_RATE",
+                "characteristicDescription": "Caudal a 1750 RPM",
+                "targetValue": 100,
+                "lowerLimit": 95,
+                "upperLimit": 105,
+                "actualValue": 102,
+                "result": "OK",
+                "inspector": "TEST-ENG01",
+                "inspectionDate": "2024-01-18T15:30:00Z"
+            },
+            {
+                "characteristic": "PRESSURE",
+                "characteristicDescription": "Presión de descarga",
+                "targetValue": 50,
+                "lowerLimit": 48,
+                "upperLimit": 52,
+                "actualValue": 50.5,
+                "result": "OK",
+                "inspector": "TEST-ENG01",
+                "inspectionDate": "2024-01-18T16:00:00Z"
+            },
+            {
+                "characteristic": "VIBRATION",
+                "characteristicDescription": "Nivel de vibración",
+                "targetValue": 2.5,
+                "lowerLimit": 0,
+                "upperLimit": 3.5,
+                "actualValue": 2.1,
+                "result": "OK",
+                "inspector": "TEST-ENG01",
+                "inspectionDate": "2024-01-18T16:30:00Z"
+            },
+            {
+                "characteristic": "NOISE",
+                "characteristicDescription": "Nivel de ruido",
+                "targetValue": 70,
+                "lowerLimit": 0,
+                "upperLimit": 75,
+                "actualValue": 68,
+                "result": "OK",
+                "inspector": "TEST-ENG01",
+                "inspectionDate": "2024-01-18T17:00:00Z"
+            }
+        ]
+    },
+    {
+        "inspectionLot": "10000003",
+        "material": "100-200",
+        "materialDescription": "Eje de Acero",
+        "batch": "SEMI-2024-005",
+        "plant": "1000",
+        "inspectionType": "02",
+        "quantity": 50,
+        "unit": "ST",
+        "status": "RES",
+        "createdDate": "2024-01-20T09:00:00Z",
+        "inspectionPlan": "SEMI001-1",
+        "results": [
+            {
+                "characteristic": "DIAMETER",
+                "characteristicDescription": "Diámetro exterior",
+                "targetValue": 50.0,
+                "lowerLimit": 49.95,
+                "upperLimit": 50.05,
+                "actualValue": 50.01,
+                "result": "OK",
+                "inspector": "QC-MECH01",
+                "inspectionDate": "2024-01-20T10:00:00Z"
+            },
+            {
+                "characteristic": "LENGTH",
+                "characteristicDescription": "Longitud total",
+                "targetValue": 200.0,
+                "lowerLimit": 199.8,
+                "upperLimit": 200.2,
+                "actualValue": 199.95,
+                "result": "OK",
+                "inspector": "QC-MECH01",
+                "inspectionDate": "2024-01-20T10:15:00Z"
+            },
+            {
+                "characteristic": "ROUNDNESS",
+                "characteristicDescription": "Redondez",
+                "targetValue": 0.01,
+                "lowerLimit": 0,
+                "upperLimit": 0.02,
+                "actualValue": 0.008,
+                "result": "OK",
+                "inspector": "QC-MECH01",
+                "inspectionDate": "2024-01-20T10:30:00Z"
+            }
+        ]
+    },
+    {
+        "inspectionLot": "10000004",
+        "material": "ELEC-001",
+        "materialDescription": "Tarjeta Electrónica PCB",
+        "batch": "PCB-2024-010",
+        "plant": "1000",
+        "inspectionType": "01",
+        "quantity": 100,
+        "unit": "PC",
+        "status": "CALC",
+        "usageDecision": "R",
+        "createdDate": "2024-01-22T11:00:00Z",
+        "inspectionPlan": "ELEC001-1",
+        "results": [
+            {
+                "characteristic": "SOLDER_QUAL",
+                "characteristicDescription": "Calidad de soldadura",
+                "targetValue": 1,
+                "lowerLimit": 1,
+                "upperLimit": 1,
+                "actualValue": 0,
+                "result": "NOT_OK",
+                "inspector": "QC-ELEC01",
+                "inspectionDate": "2024-01-22T12:00:00Z"
+            },
+            {
+                "characteristic": "CONTINUITY",
+                "characteristicDescription": "Prueba de continuidad",
+                "targetValue": 1,
+                "lowerLimit": 1,
+                "upperLimit": 1,
+                "actualValue": 0,
+                "result": "NOT_OK",
+                "inspector": "QC-ELEC01",
+                "inspectionDate": "2024-01-22T12:30:00Z"
+            }
+        ]
+    },
+    {
+        "inspectionLot": "10000005",
+        "material": "PKG-BOX",
+        "materialDescription": "Caja de Embalaje Grande",
+        "batch": "PKG-2024-020",
+        "plant": "1000",
+        "inspectionType": "01",
+        "quantity": 1000,
+        "unit": "PC",
+        "status": "SPRQ",
+        "createdDate": "2024-01-25T08:30:00Z",
+        "inspectionPlan": "PKG001-1",
+        "results": []
+    }
+]

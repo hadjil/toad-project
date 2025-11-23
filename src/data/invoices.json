@@ -1,0 +1,26 @@
+[
+    {
+        "invoiceNumber": "INV001",
+        "vendor": "VEND-001",
+        "date": "2024-02-20",
+        "amount": 1500.00,
+        "currency": "USD",
+        "status": "PAID"
+    },
+    {
+        "invoiceNumber": "INV002",
+        "vendor": "VEND-002",
+        "date": "2024-02-22",
+        "amount": 3200.50,
+        "currency": "USD",
+        "status": "OPEN"
+    },
+    {
+        "invoiceNumber": "INV003",
+        "vendor": "VEND-001",
+        "date": "2024-02-25",
+        "amount": 750.75,
+        "currency": "USD",
+        "status": "PAID"
+    }
+]

@@ -1,0 +1,107 @@
+{
+    "FB01": {
+        "title": "Contabilizar documento: Datos cabecera",
+        "tabs": [
+            {
+                "label": "Datos cabecera",
+                "fields": [
+                    {
+                        "name": "docDate",
+                        "label": "Fecha documento",
+                        "type": "date",
+                        "default": "today",
+                        "width": "w-md"
+                    },
+                    {
+                        "name": "docType",
+                        "label": "Clase doc.",
+                        "type": "text",
+                        "maxLength": 2,
+                        "width": "w-xs"
+                    },
+                    {
+                        "name": "companyCode",
+                        "label": "Sociedad",
+                        "type": "text",
+                        "maxLength": 4,
+                        "width": "w-sm"
+                    },
+                    {
+                        "name": "postingDate",
+                        "label": "Fecha contab.",
+                        "type": "date",
+                        "default": "today",
+                        "width": "w-md"
+                    },
+                    {
+                        "name": "period",
+                        "label": "Periodo",
+                        "type": "number",
+                        "maxLength": 2,
+                        "width": "w-xs"
+                    },
+                    {
+                        "name": "currency",
+                        "label": "Moneda",
+                        "type": "text",
+                        "maxLength": 5,
+                        "width": "w-sm"
+                    },
+                    {
+                        "name": "reference",
+                        "label": "Referencia",
+                        "type": "text",
+                        "maxLength": 16,
+                        "width": "w-lg"
+                    },
+                    {
+                        "name": "docHeaderText",
+                        "label": "Txt.cab.doc.",
+                        "type": "text",
+                        "maxLength": 25,
+                        "width": "w-xl"
+                    }
+                ]
+            }
+        ]
+    },
+    "MM01": {
+        "title": "Crear material (Inicial)",
+        "tabs": [
+            {
+                "label": "Datos iniciales",
+                "fields": [
+                    {
+                        "name": "material",
+                        "label": "Material",
+                        "type": "text",
+                        "maxLength": 18,
+                        "width": "w-lg"
+                    },
+                    {
+                        "name": "industrySector",
+                        "label": "Ramo",
+                        "type": "select",
+                        "options": [
+                            "M - Ingeniería mecánica",
+                            "C - Química",
+                            "P - Farmacéutica"
+                        ],
+                        "width": "w-xl"
+                    },
+                    {
+                        "name": "materialType",
+                        "label": "Tipo material",
+                        "type": "select",
+                        "options": [
+                            "FERT - Producto terminado",
+                            "ROH - Materia prima",
+                            "HALB - Semielaborado"
+                        ],
+                        "width": "w-xl"
+                    }
+                ]
+            }
+        ]
+    }
+}

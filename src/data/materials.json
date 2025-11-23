@@ -1,0 +1,146 @@
+[
+    {
+        "material": "100-100",
+        "description": "Carcasa de Bomba",
+        "type": "ROH",
+        "industry": "M",
+        "baseUnit": "ST",
+        "price": 150.00,
+        "currency": "USD"
+    },
+    {
+        "material": "100-200",
+        "description": "Eje de Acero",
+        "type": "ROH",
+        "industry": "M",
+        "baseUnit": "ST",
+        "price": 85.50,
+        "currency": "USD"
+    },
+    {
+        "material": "200-100",
+        "description": "Bomba Centrifuga P-100",
+        "type": "FERT",
+        "industry": "M",
+        "baseUnit": "ST",
+        "price": 1200.00,
+        "currency": "USD"
+    },
+    {
+        "material": "300-100",
+        "description": "Servicio de Mantenimiento",
+        "type": "DIEN",
+        "industry": "M",
+        "baseUnit": "H",
+        "price": 75.00,
+        "currency": "USD"
+    },
+    {
+        "material": "RM-100",
+        "description": "Acero Inoxidable 316L",
+        "type": "ROH",
+        "industry": "M",
+        "baseUnit": "KG",
+        "price": 12.50,
+        "currency": "USD"
+    },
+    {
+        "material": "RM-101",
+        "description": "Tornillos y Tuercas M8",
+        "type": "ROH",
+        "industry": "M",
+        "baseUnit": "PC",
+        "price": 0.50,
+        "currency": "USD"
+    },
+    {
+        "material": "RM-102",
+        "description": "Aluminio 6061-T6",
+        "type": "ROH",
+        "industry": "M",
+        "baseUnit": "KG",
+        "price": 8.75,
+        "currency": "USD"
+    },
+    {
+        "material": "RM-103",
+        "description": "Sello Mecánico Tipo A",
+        "type": "ROH",
+        "industry": "M",
+        "baseUnit": "ST",
+        "price": 45.00,
+        "currency": "USD"
+    },
+    {
+        "material": "RM-104",
+        "description": "Rodamiento 6205-2RS",
+        "type": "ROH",
+        "industry": "M",
+        "baseUnit": "ST",
+        "price": 15.00,
+        "currency": "USD"
+    },
+    {
+        "material": "ELEC-001",
+        "description": "Tarjeta Electrónica PCB",
+        "type": "ROH",
+        "industry": "M",
+        "baseUnit": "PC",
+        "price": 45.00,
+        "currency": "EUR"
+    },
+    {
+        "material": "ELEC-002",
+        "description": "Motor Eléctrico 5HP",
+        "type": "HALB",
+        "industry": "M",
+        "baseUnit": "ST",
+        "price": 350.00,
+        "currency": "USD"
+    },
+    {
+        "material": "PKG-BOX",
+        "description": "Caja de Embalaje Grande",
+        "type": "ROH",
+        "industry": "M",
+        "baseUnit": "PC",
+        "price": 1.20,
+        "currency": "USD"
+    },
+    {
+        "material": "FG-200",
+        "description": "Bomba Centrifuga P-100",
+        "type": "FERT",
+        "industry": "M",
+        "baseUnit": "ST",
+        "price": 1200.00,
+        "currency": "USD"
+    },
+    {
+        "material": "FG-201",
+        "description": "Motor Bomba Completo M-50",
+        "type": "FERT",
+        "industry": "M",
+        "baseUnit": "ST",
+        "price": 1850.00,
+        "currency": "USD"
+    },
+    {
+        "material": "SEMI-001",
+        "description": "Impulsor Mecanizado",
+        "type": "HALB",
+        "industry": "M",
+        "baseUnit": "ST",
+        "price": 125.00,
+        "currency": "USD"
+    },
+    {
+        "material": "SEMI-002",
+        "description": "Carcasa Fundida",
+        "type": "HALB",
+        "industry": "M",
+        "baseUnit": "ST",
+        "price": 180.00,
+        "currency": "USD"
+    }
+]

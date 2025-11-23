@@ -1,0 +1,637 @@
+[
+  {
+    "name": "Menú SAP",
+    "folders": [
+      {
+        "name": "Finanzas (FI/CO)",
+        "folders": [
+          {
+            "name": "Gestión Financiera (FI)",
+            "folders": [
+              {
+                "name": "Libro Mayor (GL)",
+                "folders": [
+                  {
+                    "name": "Introduzca el documento de cuenta G/L",
+                    "codigoTransaccion": "FB50"
+                  },
+                  {
+                    "name": "Introduce las facturas entrantes (Acreedor)",
+                    "codigoTransaccion": "FB60"
+                  },
+                  {
+                    "name": "Introduzca la publicación de cuentas G/L",
+                    "codigoTransaccion": "F-02"
+                  },
+                  {
+                    "name": "Pantalla de equilibrio",
+                    "codigoTransaccion": "FS10N"
+                  },
+                  {
+                    "name": "Documento de Cambio",
+                    "codigoTransaccion": "FB02"
+                  },
+                  {
+                    "name": "Documento posterior",
+                    "codigoTransaccion": "FB01"
+                  },
+                  {
+                    "name": "Publicación con Clearing",
+                    "codigoTransaccion": "FB05"
+                  },
+                  {
+                    "name": "Compensar la cuenta G/L",
+                    "codigoTransaccion": "F-03"
+                  },
+                  {
+                    "name": "Limpiar la cuenta G/L",
+                    "codigoTransaccion": "FB1S"
+                  },
+                  {
+                    "name": "Líneas de Cuenta G/L",
+                    "codigoTransaccion": "FBL3N"
+                  }
+                ]
+              },
+              {
+                "name": "Cuentas por Pagar (AP)",
+                "folders": [
+                  {
+                    "name": "Pagos salientes",
+                    "codigoTransaccion": "F-53"
+                  },
+                  {
+                    "name": "Compensar acreedor",
+                    "codigoTransaccion": "F-44"
+                  },
+                  {
+                    "name": "Parámetros para el pago automático",
+                    "codigoTransaccion": "F110"
+                  },
+                  {
+                    "name": "Líneas de Acreedores",
+                    "codigoTransaccion": "FBL1N"
+                  }
+                ]
+              },
+              {
+                "name": "Cuentas por Cobrar (AR)",
+                "folders": [
+                  {
+                    "name": "Introduzca la factura del cliente",
+                    "codigoTransaccion": "FB70"
+                  },
+                  {
+                    "name": "Pagos entrantes",
+                    "codigoTransaccion": "F-28"
+                  },
+                  {
+                    "name": "Partidas de Clientes",
+                    "codigoTransaccion": "FBL5N"
+                  }
+                ]
+              },
+              {
+                "name": "Activos Fijos (AA)",
+                "folders": [
+                  {
+                    "name": "Explorador de Activos",
+                    "codigoTransaccion": "AW01N"
+                  }
+                ]
+              },
+              {
+                "name": "Maestro de Acreedores",
+                "folders": [
+                  {
+                    "name": "Crear proveedor",
+                    "codigoTransaccion": "XK01"
+                  },
+                  {
+                    "name": "Cambiar de proveedor",
+                    "codigoTransaccion": "XK02"
+                  },
+                  {
+                    "name": "Proveedor de Visualización (Contabilidad)",
+                    "codigoTransaccion": "FK03"
+                  },
+                  {
+                    "name": "Proveedor de exposiciones",
+                    "codigoTransaccion": "XK03"
+                  }
+                ]
+              },
+              {
+                "name": "Bancos y Pagos",
+                "folders": [
+                  {
+                    "name": "Mostrar o editar propuesta de pago",
+                    "codigoTransaccion": "FBZ0"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Controlling (CO)",
+            "folders": [
+              {
+                "name": "Centros de Coste",
+                "folders": [
+                  {
+                    "name": "Centros de coste: Partidas reales",
+                    "codigoTransaccion": "KSB1"
+                  },
+                  {
+                    "name": "Crear Centro de Coste",
+                    "codigoTransaccion": "KS01"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Logística",
+        "folders": [
+          {
+            "name": "Gestión de Materiales (MM)",
+            "folders": [
+              {
+                "name": "Maestro de Materiales",
+                "folders": [
+                  {
+                    "name": "Crear material",
+                    "codigoTransaccion": "MM01"
+                  },
+                  {
+                    "name": "Cambiar el material",
+                    "codigoTransaccion": "MM02"
+                  },
+                  {
+                    "name": "Material de exhibición",
+                    "codigoTransaccion": "MM03"
+                  },
+                  {
+                    "name": "Material Cabina (Listado)",
+                    "codigoTransaccion": "MM60"
+                  },
+                  {
+                    "name": "Resumen de la acción (Stock)",
+                    "codigoTransaccion": "MMBE"
+                  }
+                ]
+              },
+              {
+                "name": "Compras (PUR)",
+                "folders": [
+                  {
+                    "name": "Crear orden de compra",
+                    "codigoTransaccion": "ME21N"
+                  },
+                  {
+                    "name": "Cambiar la orden de compra",
+                    "codigoTransaccion": "ME22N"
+                  },
+                  {
+                    "name": "Orden de compra de pantalla",
+                    "codigoTransaccion": "ME23N"
+                  },
+                  {
+                    "name": "Crear lista de fuentes",
+                    "codigoTransaccion": "ME01"
+                  },
+                  {
+                    "name": "Lista de fuentes de cambios",
+                    "codigoTransaccion": "ME02"
+                  },
+                  {
+                    "name": "Lista de fuentes de visualización",
+                    "codigoTransaccion": "ME03"
+                  },
+                  {
+                    "name": "Crear Registro de Información Estándar",
+                    "codigoTransaccion": "ME11"
+                  },
+                  {
+                    "name": "Registro de información (Listado)",
+                    "codigoTransaccion": "ME1M"
+                  },
+                  {
+                    "name": "Lista de órdenes de compra",
+                    "codigoTransaccion": "ME2N"
+                  },
+                  {
+                    "name": "Órdenes de compra por proveedor",
+                    "codigoTransaccion": "ME2L"
+                  },
+                  {
+                    "name": "Lista de requisiciones de compra",
+                    "codigoTransaccion": "ME5A"
+                  },
+                  {
+                    "name": "Lista de Acuerdos de Programación",
+                    "codigoTransaccion": "ME80FN"
+                  },
+                  {
+                    "name": "Lista de fuentes",
+                    "codigoTransaccion": "ME0M"
+                  },
+                  {
+                    "name": "Lista de contratos",
+                    "codigoTransaccion": "ME3N"
+                  }
+                ]
+              },
+              {
+                "name": "Gestión de Inventario (IM)",
+                "folders": [
+                  {
+                    "name": "Movimiento de mercancías (Entrada/Salida)",
+                    "codigoTransaccion": "MIGO"
+                  },
+                  {
+                    "name": "Lista de documentos de materiales",
+                    "codigoTransaccion": "MB51"
+                  },
+                  {
+                    "name": "Emisión de bienes",
+                    "codigoTransaccion": "MB1A"
+                  },
+                  {
+                    "name": "Recibo de mercancías (Otros)",
+                    "codigoTransaccion": "MB1C"
+                  },
+                  {
+                    "name": "Visualización del documento de materiales",
+                    "codigoTransaccion": "MB03"
+                  },
+                  {
+                    "name": "Reserva (Lista)",
+                    "codigoTransaccion": "MB25"
+                  },
+                  {
+                    "name": "Lista de acciones (Stock en almacén)",
+                    "codigoTransaccion": "MB52"
+                  },
+                  {
+                    "name": "Informe de entrega entrante",
+                    "codigoTransaccion": "VL06"
+                  }
+                ]
+              },
+              {
+                "name": "Verificación de Facturas (IV)",
+                "folders": [
+                  {
+                    "name": "Introduce la factura",
+                    "codigoTransaccion": "MIRO"
+                  },
+                  {
+                    "name": "Lista de facturas (Visualizar documento)",
+                    "codigoTransaccion": "MIR4"
+                  }
+                ]
+              },
+              {
+                "name": "Maestro de Proveedores",
+                "folders": [
+                  {
+                    "name": "Cabina del proveedor (Listado)",
+                    "codigoTransaccion": "MKVZ"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Ventas y Distribución (SD)",
+            "folders": [
+              {
+                "name": "Ventas (SLS)",
+                "folders": [
+                  {
+                    "name": "Crear Orden de Venta",
+                    "codigoTransaccion": "VA01"
+                  },
+                  {
+                    "name": "Cambiar el orden de venta",
+                    "codigoTransaccion": "VA02"
+                  },
+                  {
+                    "name": "Pedido de venta de exhibición",
+                    "codigoTransaccion": "VA03"
+                  }
+                ]
+              },
+              {
+                "name": "Facturación (BIL)",
+                "folders": [
+                  {
+                    "name": "Crear documento de facturación",
+                    "codigoTransaccion": "VF01"
+                  },
+                  {
+                    "name": "Cambio de documento de facturación",
+                    "codigoTransaccion": "VF02"
+                  },
+                  {
+                    "name": "Mostrar documento de facturación",
+                    "codigoTransaccion": "VF03"
+                  }
+                ]
+              },
+              {
+                "name": "Expedición (SHP)",
+                "folders": [
+                  {
+                    "name": "Crear Entrega Saliente",
+                    "codigoTransaccion": "VL01N"
+                  },
+                  {
+                    "name": "Cambiar la entrega saliente",
+                    "codigoTransaccion": "VL02N"
+                  },
+                  {
+                    "name": "Mostrar la entrega saliente",
+                    "codigoTransaccion": "VL03N"
+                  }
+                ]
+              },
+              {
+                "name": "Maestro de Clientes",
+                "folders": [
+                  {
+                    "name": "Crear cliente (General)",
+                    "codigoTransaccion": "XD01"
+                  },
+                  {
+                    "name": "Cambiar de cliente (General)",
+                    "codigoTransaccion": "XD02"
+                  },
+                  {
+                    "name": "Cliente de pantalla (General)",
+                    "codigoTransaccion": "XD03"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Planificación de Producción (PP)",
+            "folders": [
+              {
+                "name": "Órdenes de Producción/Proceso",
+                "folders": [
+                  {
+                    "name": "Crear orden de producción",
+                    "codigoTransaccion": "CO01"
+                  },
+                  {
+                    "name": "Cambio de orden de producción",
+                    "codigoTransaccion": "CO02"
+                  },
+                  {
+                    "name": "Orden de producción de la pantalla",
+                    "codigoTransaccion": "CO03"
+                  },
+                  {
+                    "name": "Crear orden de proceso",
+                    "codigoTransaccion": "COR1"
+                  },
+                  {
+                    "name": "Orden de Cambio del Proceso",
+                    "codigoTransaccion": "COR2"
+                  },
+                  {
+                    "name": "Orden del proceso de visualización",
+                    "codigoTransaccion": "COR3"
+                  },
+                  {
+                    "name": "Confirmación de orden de producción introducida",
+                    "codigoTransaccion": "CO15"
+                  },
+                  {
+                    "name": "Sistema de Información de Órdenes de Producción",
+                    "codigoTransaccion": "COOIS"
+                  },
+                  {
+                    "name": "Sistema de Información de Órdenes de Procesos",
+                    "codigoTransaccion": "COOISPI"
+                  },
+                  {
+                    "name": "Consulta los registros de COGI (Error de Movimiento)",
+                    "codigoTransaccion": "COGI"
+                  },
+                  {
+                    "name": "Comprobar versiones de producción",
+                    "codigoTransaccion": "C223"
+                  }
+                ]
+              },
+              {
+                "name": "Maestro de Producción",
+                "folders": [
+                  {
+                    "name": "Crear enrutamiento",
+                    "codigoTransaccion": "CA01"
+                  },
+                  {
+                    "name": "Cambiar el enrutamiento",
+                    "codigoTransaccion": "CA02"
+                  },
+                  {
+                    "name": "Crear Lista de Materiales (BOM)",
+                    "codigoTransaccion": "CS01"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Mantenimiento",
+            "folders": [
+              {
+                "name": "Crear orden de mantenimiento",
+                "codigoTransaccion": "IW31"
+              },
+              {
+                "name": "Cambiar orden de mantenimiento",
+                "codigoTransaccion": "IW32"
+              },
+              {
+                "name": "Visualizar orden de mantenimiento",
+                "codigoTransaccion": "IW33"
+              },
+              {
+                "name": "Objetos Técnicos",
+                "folders": [
+                  {
+                    "name": "Crear equipo",
+                    "codigoTransaccion": "IE01"
+                  },
+                  {
+                    "name": "Mantener los datos maestros de RRHH",
+                    "codigoTransaccion": "PA30"
+                  },
+                  {
+                    "name": "Personnel Actions",
+                    "codigoTransaccion": "PA40"
+                  }
+                ]
+              },
+              {
+                "name": "Gestión Organizativa (OM)",
+                "folders": [
+                  {
+                    "name": "Mantener los datos de planificación de RRHH",
+                    "codigoTransaccion": "PP01"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Planificación de Proyectos (PS)",
+            "folders": [
+              {
+                "name": "Estructura",
+                "folders": [
+                  {
+                    "name": "Crear Elemento PEP",
+                    "codigoTransaccion": "CJ01"
+                  },
+                  {
+                    "name": "Crear Red (Actividades)",
+                    "codigoTransaccion": "CN21"
+                  }
+                ]
+              },
+              {
+                "name": "Informes",
+                "folders": [
+                  {
+                    "name": "Reporte de disponibilidad de presupuesto",
+                    "codigoTransaccion": "S_ALR_87013558"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Gestión de Relaciones con Clientes (CRM)",
+            "folders": [
+              {
+                "name": "Transacciones principales (Ejemplo)",
+                "folders": [
+                  {
+                    "name": "Crear oportunidad",
+                    "codigoTransaccion": "CRMD_ORDER"
+                  },
+                  {
+                    "name": "Business Partner (Visualizar/Cambiar)",
+                    "codigoTransaccion": "BP"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Herramientas / Tecnología",
+            "folders": [
+              {
+                "name": "ABAP Workbench",
+                "folders": [
+                  {
+                    "name": "ABAP Diccionario",
+                    "codigoTransaccion": "SE11"
+                  },
+                  {
+                    "name": "ABAP Editor",
+                    "codigoTransaccion": "SE38"
+                  },
+                  {
+                    "name": "Object Navigator",
+                    "codigoTransaccion": "SE80"
+                  },
+                  {
+                    "name": "Error en tiempo de ejecución ABAP",
+                    "codigoTransaccion": "ST22"
+                  },
+                  {
+                    "name": "Resumen de la selección de puestos (Jobs)",
+                    "codigoTransaccion": "SM37"
+                  },
+                  {
+                    "name": "Destinos RFC (Visualización/Mantenimiento)",
+                    "codigoTransaccion": "SM59"
+                  }
+                ]
+              },
+              {
+                "name": "Business Warehouse (BW)",
+                "folders": [
+                  {
+                    "name": "Banco de trabajo de almacenamiento de datos: Modelado",
+                    "codigoTransaccion": "RSA1"
+                  },
+                  {
+                    "name": "Comprobador extractor",
+                    "codigoTransaccion": "RSA3"
+                  },
+                  {
+                    "name": "Instalar contenido empresarial",
+                    "codigoTransaccion": "RSA5"
+                  },
+                  {
+                    "name": "Mantener Fuentes de Datos",
+                    "codigoTransaccion": "RSA6"
+                  },
+                  {
+                    "name": "Monitor de cola Delta de BW",
+                    "codigoTransaccion": "RSA7"
+                  },
+                  {
+                    "name": "Mantenimiento característico",
+                    "codigoTransaccion": "RSD1"
+                  },
+                  {
+                    "name": "Mantenimiento de figuras clave",
+                    "codigoTransaccion": "RSD2"
+                  },
+                  {
+                    "name": "Mantenimiento de unidades",
+                    "codigoTransaccion": "RSD3"
+                  },
+                  {
+                    "name": "Mantenimiento de las características temporales",
+                    "codigoTransaccion": "RSD4"
+                  },
+                  {
+                    "name": "Editar InfoObjects",
+                    "codigoTransaccion": "RSD5"
+                  },
+                  {
+                    "name": "Mantenimiento de la cadena de procesos",
+                    "codigoTransaccion": "RSPC"
+                  },
+                  {
+                    "name": "Visualización de la cadena de procesos",
+                    "codigoTransaccion": "RSPC1"
+                  },
+                  {
+                    "name": "Monitor de carga de datos para una solicitud",
+                    "codigoTransaccion": "RSRQ"
+                  },
+                  {
+                    "name": "Inicio del Monitor de Informes",
+                    "codigoTransaccion": "RSRT"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]

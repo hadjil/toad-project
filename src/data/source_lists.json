@@ -1,0 +1,26 @@
+[
+    {
+        "listId": "SL001",
+        "description": "Lista de fuentes para materiales estándar",
+        "vendor": "VEND-001",
+        "validFrom": "2024-01-01",
+        "validTo": "2025-12-31",
+        "materials": [
+            "100-100",
+            "100-200",
+            "200-100"
+        ]
+    },
+    {
+        "listId": "SL002",
+        "description": "Lista de fuentes para componentes críticos",
+        "vendor": "VEND-002",
+        "validFrom": "2024-06-01",
+        "validTo": "2025-06-30",
+        "materials": [
+            "RM-100",
+            "RM-101",
+            "RM-102"
+        ]
+    }
+]

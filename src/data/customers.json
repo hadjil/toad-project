@@ -1,0 +1,26 @@
+[
+    {
+        "customer": "1000",
+        "name": "Tech Solutions Inc.",
+        "city": "New York",
+        "country": "US",
+        "paymentTerms": "0001",
+        "reconciliationAccount": "140000"
+    },
+    {
+        "customer": "1001",
+        "name": "Global Manufacturing Ltd.",
+        "city": "Berlin",
+        "country": "DE",
+        "paymentTerms": "0002",
+        "reconciliationAccount": "140000"
+    },
+    {
+        "customer": "1002",
+        "name": "Local Retailer Co.",
+        "city": "Mexico City",
+        "country": "MX",
+        "paymentTerms": "0001",
+        "reconciliationAccount": "140000"
+    }
+]
